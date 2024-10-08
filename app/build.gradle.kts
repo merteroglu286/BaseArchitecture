@@ -92,6 +92,8 @@ dependencies {
     implementation(project(":domain"))
     implementation(project(":data"))
     implementation(project(":core"))
+    implementation("androidx.test:monitor:1.7.2")
+    implementation("androidx.test.ext:junit-ktx:1.2.1")
 
     kapt(Libs.hiltCompiler)
 
