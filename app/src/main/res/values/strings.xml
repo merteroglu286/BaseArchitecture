@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_api_key">map_key</string>
+
+    <string name="pls_open_gps">Please turn on GPS in settings to continue.</string>
+    <string name="app_name">BaseArchitecture</string>
+    <string name="back">Geri</string>
+
+
+</resources>

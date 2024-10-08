@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/large_margin"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.android.core.components.base_components.TextViewComponent
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/plusjakartasanssemibold"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Haa"
+            android:textColor="@color/primary_text_color"
+            android:textSize="16sp" />
+
+
+        <com.android.core.components.base_components.TextViewComponent
+            android:id="@+id/messageEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:fontFamily="@font/plusjakardamedium"
+            android:gravity="center"
+            android:textColor="@color/primary_text_color"
+            android:textSize="14sp" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:id="@+id/okButton"
+            android:text="Tamam"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

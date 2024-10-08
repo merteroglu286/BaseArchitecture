@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+        <style name="Theme.BaseArchitecture" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <!-- Customize your theme here. -->
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.BaseArchitecture.Headline1
+        </item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.BaseArchitecture.Subtitle1
+        </item>
+        <item name="textAppearanceBody1">@style/TextAppearance.BaseArchitecture.Body1</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:autofilledHighlight" tools:targetApi="o">@android:color/transparent
+        </item>
+
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+</resources>
